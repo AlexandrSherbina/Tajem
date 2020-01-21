@@ -1,0 +1,48 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.card {
+  border: 1px solid white;
+}
+
+.card-title {
+  font-size: 14px;
+}
+
+.card-description {
+  /*font-family: Roboto-Light;*/
+  font-size: 14px;
+  color: #333333bd;
+}
+.card-description-meet {
+  font-size: 13px;
+  font-weight: 200;
+  color: #fafafa;
+}
+.card-image {
+}
+
+.card-image > img {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.card-wrapper-works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.card-works-image {
+  border: none;
+}
+.card-giveus-image {
+}
+/*.card-works-image {
+  width: 267px;
+  height: 200px;
+  object-fit: cover;
+}*/
+/*.card-image-meet {
+  height: 230px;
+  width: 220px;
+}*/

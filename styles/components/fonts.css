@@ -1,0 +1,183 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,800,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap");
+@font-face {
+  font-family: "tajem";
+  src: url("../../fonts/tajem.eot?mfex27");
+  src: url("../../fonts/tajem.eot?mfex27#iefix") format("embedded-opentype"),
+    url("../../fonts/tajem.ttf?mfex27") format("truetype"),
+    url("../../fonts/tajem.woff?mfex27") format("woff"),
+    url("../../fonts/tajem.svg?mfex27#tajem") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "tajem" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-gradient:before {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#02ded0),
+    to(#385379)
+  );
+  background: -o-linear-gradient(left, #02ded0, #385379);
+  background: linear-gradient(to right, #02ded0, #385379);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+.icon-fly:before {
+  content: "\e900";
+  font-size: 50px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#02ded0),
+    to(#385379)
+  );
+  background: -o-linear-gradient(top, #02ded0, #385379);
+  background: linear-gradient(to bottom, #02ded0, #385379);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  padding-right: 11px;
+}
+.icon-monitor:before {
+  content: "\e90e";
+}
+.icon-paint-brush:before {
+  content: "\e90c";
+}
+.icon-mobile1:before {
+  content: "\e958";
+  width: 28px;
+}
+.icon-phone1:before {
+  content: "\e90d";
+}
+.icon-clock:before {
+  content: "\e90b";
+}
+.icon-videogame_asset:before {
+  content: "\e907";
+}
+.icon-heart:before {
+  content: "\e908";
+  font-size: 46px;
+}
+
+.icon-arrow:before {
+  content: "\e906";
+  font-size: 25px;
+}
+
+.icon-map:before {
+  content: "\e90f";
+  padding-right: 16px;
+  font-size: 19px;
+}
+
+.icon-phone:before {
+  content: "\e910";
+  padding-right: 16px;
+  font-size: 17px;
+}
+.icon-twitter:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+
+.icon-play-circle:before {
+  content: "\e912";
+  font-size: 101px;
+}
+.icon-play-circle {
+  color: white;
+}
+
+.icon-play-circle:hover {
+  color: #00e0d0;
+  text-decoration: none;
+}
+
+.icon-triangle:before {
+  content: "\e909";
+}
+.icon-social-dribbble-circular:before {
+  content: "\e90a";
+}
+
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+
+.icon-youtube-play:before {
+  content: "\e905";
+}
+.icon-circle:before {
+  content: "\e911";
+}
+.icon-google:before {
+  content: "\e903";
+}
+.icon-socialnet:before {
+}
+.icon-socialnet {
+  color: white;
+  font-size: 25px;
+}
+.icon-socialnet:hover {
+  color: #00e0d0;
+  text-decoration: none;
+}
+.icon-outline:before {
+  content: "\e913";
+  width: 51px;
+  height: 2px;
+}
+.icon-compass:before {
+  content: "\e949";
+  font-size: 25px;
+}
+.icon-compass:hover {
+  text-decoration: none;
+  color: #00e0d0;
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e914";
+  font-size: 20px;
+}
+.icon-quotes-left:before {
+  content: "\e977";
+  font-size: 50px;
+}

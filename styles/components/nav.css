@@ -1,0 +1,17 @@
+.nav {
+  /*font-family: "Roboto-Black", AdobeInvisFont, MyriadPro-Regular;*/
+  font-size: 13px;
+  font-weight: bold;
+}
+.nav .nav-item {
+  color: white;
+  padding-right: 20px;
+}
+.nav .nav-item:hover {
+  color: #00e0d0;
+  text-decoration: none;
+}
+
+.nav .is-active {
+  color: #00e0d0;
+}

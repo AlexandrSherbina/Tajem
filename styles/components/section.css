@@ -1,0 +1,247 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.section-title {
+  /* font-family: "PlayfairDisplay-Bold", AdobeInvisFont, MyriadPro-Regular;*/
+  font-size: 22px;
+  margin-top: 0px;
+}
+.section-title-head {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 163px;
+}
+.section-subtitle {
+  color: #2f2d359e;
+  /* font-family: "Roboto-Light";*/
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.section-description {
+  font-family: "Roboto-Light";
+  font-size: 18px;
+  line-height: 1.5;
+}
+.section-description-meet {
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+.section-description-jane {
+  margin-top: 40px;
+  margin-bottom: 52px;
+}
+.section-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.section-background img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: auto;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0f0b2f),
+    to(#301f56)
+  );
+  background: -o-linear-gradient(left, #0f0b2f, #301f56);
+  background: linear-gradient(90deg, #0f0b2f, #301f56);
+  opacity: 0.6;
+}
+.section-foreground {
+  position: relative;
+  color: #fff;
+}
+
+.section-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 120px;
+}
+.section-hero {
+  height: 670px;
+  padding-top: 11px;
+}
+.section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.section-line-head {
+  width: 51px;
+  height: 2px;
+  background-color: #00e0d0;
+  border: none;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  margin-bottom: 15px;
+}
+
+.section-line {
+  display: inline-block;
+  width: 51px;
+  background-color: #413d4b;
+  height: 2px;
+  border: none;
+  opacity: 0.5;
+  text-align: center;
+}
+.section-line-meet {
+  background-color: white;
+  opacity: 0.2;
+  margin-bottom: 46px;
+}
+.section-story {
+  height: 400px;
+  padding-top: 70px;
+}
+.section-video {
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+.section-video-margin {
+  margin-top: 34px;
+}
+
+.section-expertise {
+  height: 756px;
+  text-align: center;
+}
+.section-meet {
+  text-align: center;
+}
+
+.section-image {
+  width: 235px;
+  height: 229px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-video-image {
+  width: 37px;
+  height: 42px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-works {
+  padding-top: 70px;
+}
+.section-works-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-bottom: 70px;
+}
+
+.section-works-image {
+  width: 267px;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-jane {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+.section-jane-icon {
+  font-size: 100px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-giveus {
+}
+
+.section-giveus-title {
+  margin-bottom: 33px;
+}
+.section-footer {
+  position: relative;
+}
